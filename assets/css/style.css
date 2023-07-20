@@ -11146,6 +11146,7 @@ p {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  white-space:nowrap;
 }
 
 .portfolio .filters a {
@@ -11165,20 +11166,24 @@ p {
 
 .portfolio .filters a:first-child {
   margin-left: 0;
+  white-space:nowrap;
 }
 
 .portfolio .filters a:last-child {
   margin-right: 0;
+  white-space:nowrap;
 }
 
 .portfolio .filters a:hover {
   opacity: .9;
+  white-space:nowrap;
 }
 
 .portfolio .filters a.active {
   opacity: 1;
   background: #F85C70;
   color: #fff;
+  white-space:nowrap;
 }
 
 .portfolio .portfolio-container .portfolio-item {
